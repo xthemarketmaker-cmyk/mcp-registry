@@ -1,0 +1,16 @@
+name: pageverified
+type: remote
+meta:
+  category: security
+  tags:
+    - security
+    - x402
+    - verification
+    - remote
+about:
+  title: PageVerified
+  description: The check an AI agent runs before it picks or pays for a tool.
+  icon: https://pageverified.com/pageverified-logo.png
+remote:
+  transport_type: streamable-http
+  url: https://pageverified.com/mcp
